@@ -1,0 +1,22 @@
+{
+  "orgName": "Texeï",
+  "release": "preview",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi", "ContactsToMultipleAccounts"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "securitySettings": {
+      "sessionSettings": {
+        "lockerServiceNext": false
+      }
+    },
+    "accountSettings": {
+      "enableAccountTeams": true
+    }
+  }
+}

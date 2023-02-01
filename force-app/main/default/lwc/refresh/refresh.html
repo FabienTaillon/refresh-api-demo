@@ -1,0 +1,13 @@
+<template>
+  <lightning-card title="RefreshView API Demo">
+    <p slot="actions">
+      <lightning-button-group>
+        <lightning-button label="Create Records" onclick={handleCreate}></lightning-button>
+        <lightning-button label="force:refreshView" onclick={handeForceRefreshView}></lightning-button>
+        <lightning-button label="getRecordNotifyChange()" onclick={handleGetRecordNotifyChange}></lightning-button>
+        <lightning-button label="notifyRecordUpdateAvailable()" onclick={handleNotifyRecordUpdateAvailable}></lightning-button>
+        <lightning-button label="RefreshView API" onclick={handleRefreshViewAPI}></lightning-button>
+      </lightning-button-group>
+    </p>
+  </lightning-card>
+</template>
