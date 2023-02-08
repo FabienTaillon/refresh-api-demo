@@ -146,6 +146,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>refresh</componentName>
+                <identifier>c_refresh</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>tabs</name>
                     <value>maintabs</value>
@@ -224,8 +230,8 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>refresh</componentName>
-                <identifier>c_refresh</identifier>
+                <componentName>displayInfos</componentName>
+                <identifier>c_displayInfos</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>

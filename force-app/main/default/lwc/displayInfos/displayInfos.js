@@ -29,6 +29,10 @@ export default class DisplayInfos extends LightningElement {
      }
 
     refreshHandler() {
-        refreshApex(this.recordName);
+        return new Promise((resolve) => {
+            refreshApex(this.recordName);
+            resolve(true);
+        });
     }
 }
+
