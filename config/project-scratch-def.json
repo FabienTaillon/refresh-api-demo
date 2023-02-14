@@ -1,6 +1,5 @@
 {
   "orgName": "Texeï",
-  "release": "preview",
   "edition": "Developer",
   "features": ["EnableSetPasswordInApi", "ContactsToMultipleAccounts"],
   "settings": {
