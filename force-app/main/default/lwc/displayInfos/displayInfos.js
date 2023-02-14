@@ -21,7 +21,7 @@ export default class DisplayInfos extends LightningElement {
     }
 
     connectedCallback() {
-        //this.refreshHandlerID = registerRefreshHandler(this, this.refreshHandler);
+        this.refreshHandlerID = registerRefreshHandler(this, this.refreshHandler);
      }
 
      disconnectedCallback() {
