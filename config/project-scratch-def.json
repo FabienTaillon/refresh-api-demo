@@ -11,7 +11,7 @@
     },
     "securitySettings": {
       "sessionSettings": {
-        "lockerServiceNext": false
+        "lockerServiceNext": true
       }
     },
     "accountSettings": {
