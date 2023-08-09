@@ -1,8 +1,8 @@
 echo '##### CREATING SCRATCH ORG #####'
-sfdx force:org:create --definitionfile config/project-scratch-def.json --setalias REFRESH_API --setdefaultusername
+sf org create scratch --definition-file config/project-scratch-def.json --alias REFRESH_API --set-default 
 echo '##### PUSHING METADATA #####'
-sfdx force:source:push --targetusername REFRESH_API
+sf project deploy start --target-org REFRESH_API
 echo '##### ASSIGNING PERMISSIONS #####'
-sfdx force:user:permset:assign --perm-set-name Refresh_API --target-org REFRESH_API
+sf force user permset assign --perm-set-name Refresh_API --target-org REFRESH_API
 echo '##### OPENING SCRATCH ORG #####'
-sfdx force:org:open --path /lightning/o/Account/home --target-org REFRESH_API
+sf org open --path /lightning/o/Account/home --target-org REFRESH_API
